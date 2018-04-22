@@ -2,11 +2,9 @@
 
 \documentclass[11pt]{article}
 \usepackage{cube,amsmath,textcomp,amssymb,geometry,graphicx,enumerate,longtable}
-\usepackage[utf8]{inputenc}
-% \usepackage[margin = 1in]{geometry}
-\usepackage{amsmath}
-\usepackage{amssymb}
 \usepackage{longtable}
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 
 \usepackage{multirow}
  
@@ -86,10 +84,11 @@ Note: You must complete all of these requirements to pass this class. Failure to
 \section*{Grading}
 In addition to completing all the mandatory requirements for both the Beginner’s and Advanced section, a total cumulative grade of 70\% must be achieved in order to pass the class. Note that students will receive an NP if they miss 3 or more classes. The breakdown is as follows:
 \begin{center}
-\begin{tabular}{l|l}
+\begin{tabular}{|l|l|}
+\hline
 Solve Cube             & 40\% \\ \hline
 Papers \& Assignments* & 30\% \\ \hline
-Final                  & 30\%
+Final                  & 30\% \\ \hline
 \end{tabular}
 \end{center}
 \begin{footnotesize}
@@ -124,12 +123,12 @@ See the DeCal website for further details.
 \section*{Schedule}
 Note: Teaching topics are roughly listed and depend on your instructor.
 \begin{center}
-\begin{longtable}{|m{1cm}|m{4.6cm}|m{4.6cm}|m{4.6cm}|}
+\begin{longtable}{|L{1cm}|L{4.6cm}|L{4.6cm}|L{4.6cm}|}
 \hline
 week \# &      Beginner     										&  advanced 																& Additional HW* \\ \hline
 1  & Meet your instructor, intro to the cube and Step 1: Cross         & Meet your instructor, diagnostics + planning, intro to CFOP             & Obtain a cube                                                                  \\ \hline
 2  & Step 2: First layer                                               & Intro to first two layer solving                                        &                                                                                \\ \hline
-3  & Step 3: Middle LayerCheckpoint quiz: First layer                  & Two look OLL                                                            & Learn about the WCAAdvanced: Register for a competition (beginners encouraged) \\ \hline
+3  & Step 3: Middle Layer Checkpoint quiz: First layer                 & Two look OLL                                                            & Learn about the WCA Advanced: Register for a competition (beginners encouraged) \\ \hline
 4  & Steps 4-5: Orientation of the last layer                          & Two look PLL                                                            &                                                                                \\ \hline
 5  & Steps 6-7: Finishing the cube                                     & Various shortcuts throughout the solve                                  & Checkpoint quiz 1: Solve entire cube (with F2L techniques for advanced)        \\ \hline
 6  & Buffer/review week. Perfect solving the cube from start to finish & Advanced cross solving and fingertricks                                 &                                                                                \\ \hline
