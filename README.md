@@ -1,7 +1,7 @@
 # Decal Syllabus
 
 ## Todo list:
-- Put tables in
+- ~~Put tables in~~
 
 - ~~Make sure to put in a bullet point in the Workload section about the readings.  Right above the Workload section, it mentions biweekly readings (which is reasonable).  To be worked out later: we can probably set up some auto-grade reading check quizzes, if you would like.  I think several short reading quizzes throughout the semester may be nicer than one big reading quiz near the end.  If you want to do this, adjust the calendar as needed.~~
 
@@ -9,7 +9,7 @@
 
 - For the Grading section, it's not clear to me how the "Solve Cube" points are allocated.  Is this checked with the checkpoint quizzes?  Or just generally instructor observation during classes?  This should be made clear.
 
-- In the Grading section, please re-emphasize the attendance policy, i.e. automatic NP for more than 3 missed classes.
+- ~~In the Grading section, please re-emphasize the attendance policy, i.e. automatic NP for more than 3 missed classes.~~
 
 - ~~In the Other Policies section, please add a note instructing DSP students to come talk to you about any accommodations needed. Basically, the process should be the following -- they tell you what they need (e.g. 1.5x time on timed tests), you email me about what they asked for, I check their letter and email you back to confirm.  If there are any accommodations that are difficult to provide, we should discuss them individually to make a plan.  Note that you shouldn't ask them why they need the accommodations; that is considered private information.~~
 
