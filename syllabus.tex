@@ -1,8 +1,13 @@
 % Search for all the places that say "PUT SOMETHING HERE".
 
 \documentclass[11pt]{article}
-\usepackage{cube,amsmath,textcomp,amssymb,geometry,graphicx,enumerate,tabu}
+\usepackage{cube,amsmath,textcomp,amssymb,geometry,graphicx,enumerate,longtable}
+\usepackage{longtable}
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 
+\usepackage{multirow}
+ 
 \def\Session{Fall 2018}
 
 % \title{Syllabus}
@@ -77,22 +82,18 @@ Note: You must complete all of these requirements to pass this class. Failure to
 
 
 \section*{Grading}
-In addition to completing all the mandatory requirements for both the Beginner’s and Advanced section, a total cumulative grade of 70\% must be achieved in order to pass the class.  The breakdown is as follows:
-
+In addition to completing all the mandatory requirements for both the Beginner’s and Advanced section, a total cumulative grade of 70\% must be achieved in order to pass the class. Note that students will receive an NP if they miss 3 or more classes. The breakdown is as follows:
 \begin{center}
-	\begin{tabular}{|| c | c ||}
-	\hline
-	Solve Cube & 40\% \\
-	\hline
-	Papers and Assignments* & 30\% \\
-	\hline
-	Final & 30\% \\
-	\hline
-	\end{tabular}
+\begin{tabular}{|l|l|}
+\hline
+Solve Cube             & 40\% \\ \hline
+Papers \& Assignments* & 30\% \\ \hline
+Final                  & 30\% \\ \hline
+\end{tabular}
 \end{center}
-
+\begin{footnotesize}
 *Short readings + quizzes will be assigned throughout the semester. Readings are TBD. 
-
+\end{footnotesize}
 
 \section*{Prerequisites and Materials}
 For the Beginner section, the only prerequisite is that you have your own Rubik’s Cube to practice on. You will not be allowed to share with any other students. No other experience with the Rubik’s Cube or other puzzles is necessary, as we will teach you how to solve it from scratch.
@@ -102,8 +103,6 @@ For the Advanced section, you will also need your own Rubik’s Cube to practice
 We may have Rubik’s Cubes available for purchase, but stock is limited. We generally sell cubes for \$5 at the beginning of the course but students may also choose to buy cubes on their own.
 
 If you are confused on which section you belong in, talk to one of the facilitators during the first class, and we will determine which section you should take.
-
-
 
 \section*{Other Policies}
 In order for the class to proceed smoothly, it should be free of any distractions: \\
@@ -121,18 +120,33 @@ Beginner’s finals will be held on the last two weeks of class. Advanced finals
 
 See the DeCal website for further details.
 
-\newpage
-
 \section*{Schedule}
+Note: Teaching topics are roughly listed and depend on your instructor.
 \begin{center}
-	\begin{tabu} to .8\textwidth {|| c | c | c | c ||}
-	\hline
-	Class Date & Beginner's & Advanced & Addition HW* \\
-	\hline \hline
-	9/something & Do something & Do something more advanced & Prolly none \\
-	\hline
-	\end{tabu}
+\begin{longtable}{|L{1cm}|L{4.6cm}|L{4.6cm}|L{4.6cm}|}
+\hline
+Week \# & Beginner &  Advanced 	& Additional HW* \\ \hline
+1  & Meet your instructor, intro to the cube and Step 1: Cross & Meet your instructor, diagnostics + planning, intro to CFOP & Obtain a cube \\ \hline
+2  & Step 2: First layer & Intro to first two layer solving & \\ \hline
+3  & Step 3: Middle Layer Checkpoint quiz: First layer & Two look OLL & Learn about the WCA Advanced: Register for a competition (beginners encouraged) \\ \hline
+4  & Steps 4-5: Orientation of the last layer & Two look PLL & \\ \hline
+5  & Steps 6-7: Finishing the cube & Various shortcuts throughout the solve & Checkpoint quiz 1: Solve entire cube (with F2L techniques for advanced) \\ \hline
+6  & Buffer/review week. Perfect solving the cube from start to finish & Advanced cross solving and fingertricks & \\ \hline
+7  & Lecture day: Topic TBA & Lecture day: Topic TBA & \\ \hline
+8  & Intro to some simple shortcuts & Inspection, cutting rotations and efficiency & Checkpoint quiz 2: Solve the cube (under 1:30 for advanced) \\ \hline
+9  & Advanced cross solving & Easy algorithms to learn  & \\ \hline
+10 & Intro to four look last layer algorithms & Orientation for future learning: how to improve after the class is over & Do the assigned reading (TBA) \\ \hline
+11 & Review week & Review week 1 & Complete reading quiz \\ \hline
+12 & Finals day 1 & Review week 2 & \\ \hline
+13 & Finals day 2 & Finals & \\ \hline
+\end{longtable}
 \end{center}
+
+\begin{footnotesize}
+*Homework is the same for both sections unless listed otherwise. Failure to pass both checkpoint quizzes may result in a NP in the course.
+
+In addition to the listed assignments, students are expected to practice all topics taught so far on their own for 2-3 hours a week. Students will be tested every week on the previous week’s material to make sure they are practicing outside of class. 
+\end{footnotesize}
 
 \subsection*{Checkpoint Quiz 1}
 This in-class quiz will be used to measure the progress of students and ensure that they are practicing outside of class time. Students are expected to be able to solve the cube start to finish without aid from their instructors. However, using a sheet of algorithms is permitted. For advanced students, they must be able to solve the entire cube using the F2L technique taught and not the Beginner’s method
